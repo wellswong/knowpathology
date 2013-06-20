@@ -1,0 +1,217 @@
+/*
+Theme Name:     Good child
+Theme URI:      http://example.com/
+Description:    Child theme for the Good theme
+Author:         Wells
+Author URI:     http://example.com/about/
+Template:       Good                             
+Version:        0.1.0
+*/
+
+@import url("../Good/style.css");
+  /*the following is for the home page*/
+  #knowtwitts{
+      height:230px;
+   }
+   .var-narrow .timeline-footer {
+      display:none;
+    }
+	
+    #mc_embed_signup{
+    background-color:#ed1b23;
+    }	
+	.container .sixteen.columns .slider-wrapper{
+     margin-right:10px;
+     }
+	
+   /*the above is for home page*/
+   
+   
+   /*twitter widget beginning*/
+   
+ .twitter-avatar{
+   display:none;
+ }
+ #knowtwitts p{
+  color:white;font-size:220%;font-weight:bold;padding-top:12px;text-align:center
+ }
+ #knowtwitts{
+  overflow:hidden;
+ }
+  #knowtwitts ul{
+  list-style-type:none;
+  padding:0 5px 10px 15px;
+ }
+ span.entry-content{
+  font-size:150%;
+  color:white;
+ }
+ span.entry-content a{
+  font-size:100%;
+  color:white;
+ }
+ span.time-meta a {
+ color:white;
+ }
+/*twitter widget end*/
+   
+  
+
+   /* The patient story page styles */
+   .page-id-491 .jcarousellite .testimonial-content {
+		padding-left: 00px;
+	}
+	h3.testimonial-header-title {
+		margin-left: 76px;
+	}
+	.post-header {
+		margin-top: 18px;
+	}
+	.post-content {
+		padding-left: 55px;
+	}
+	.page-id-491 div.jcarousellite-nav {
+		left: 696px;
+	}
+	.page-id-491 div.jcarousellite-nav .next {
+		margin-left: 25px;
+	}
+	.page-id-491 div.jcarousellite-nav {
+		width: 253px;
+	}
+	.page-id-491 .box-left {
+		padding-left: 25px;
+	}
+	.page-id-491 .box-right {
+		margin: 10px 0px 0px 15px;
+	}
+
+  
+  /* #Tablet (Portrait)
+================================================== */
+
+    /* Note: Design for a width of 768px */
+
+    @media only screen and (min-width: 768px) and (max-width: 959px) {
+       #knowtwitts{
+         height:180px;
+        }
+		.page-id-491 div.gdl-page-float-left {
+			width: 780px;
+		}
+		
+		.container  .page-wrapper .four.columns{
+        width: 186px;
+        margin-right: 10px;
+        margin-left: 0px; 
+       }
+	   #knowtwitts p{
+        font-size:150%;
+        }
+	   span.entry-content{
+         font-size:100%;
+         }
+       span.entry-content a{
+         font-size:100%;
+        }
+	    .responsive-menu-wrapper .menu{
+	     display:block;
+	     }
+		  .logo-wrapper img{
+		 max-width:40%;
+		 }
+		
+    }
+	
+  /*  #Mobile (Portrait)
+================================================== */
+
+    /* Note: Design for a width of 320px */
+
+    @media only screen and (max-width: 767px) {
+	 #knowtwitts{
+      height:134px;
+      }
+	  
+	  #knowtwitts p.twitter-title{
+        font-size:100%;
+		margin-bottom:0;
+		padding-top:5px;
+        }
+	   span.entry-content{
+         font-size:80%;
+		 line-height:10%;
+         }
+       span.entry-content a{
+         font-size:80%;
+        }
+		
+		#signup .box-left,#signup .support-title5{
+		 text-align:center;
+		 width:95%;
+		}
+		#signup .box-right{
+		 padding-left:10%;
+		}
+		 .responsive-menu-wrapper .menu{
+	     display:block;
+	     }
+		 
+		.header-wrapper .header-right-side-wrapper{
+		 float:none;
+		 width:80%;
+		 text-align:center;
+		}
+		.header-wrapper .logo-wrapper{
+		 float:left;
+		}
+        .logo-wrapper img{
+		 max-width:60%;
+		 }
+    }
+  
+  /* #Mobile (Landscape)
+================================================== */
+
+    /* Note: Design for a width of 480px */
+
+    @media only screen and (min-width: 480px) and (max-width: 767px) {
+	
+	  #knowtwitts{
+      height:192px;
+	  
+      }
+	  .container  .page-wrapper .four.columns{
+	  width: 200px;
+      margin-right: 0px;
+      margin-left: 0px;
+	  }
+	  
+	  #knowtwitts p{
+        font-size:150%;
+        }
+	   span.entry-content{
+         font-size:100%;
+         }
+       span.entry-content a{
+         font-size:100%;
+        }
+		
+		#signup .box-left,#signup .support-title5{
+		 text-align:center;
+		}
+		#signup .box-right{
+		 padding-left:20%;
+		}
+	    .responsive-menu-wrapper .menu{
+	     display:block;
+	     }
+		
+	}
+	
+	
+
+
+
+
+	
