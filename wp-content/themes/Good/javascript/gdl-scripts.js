@@ -172,6 +172,92 @@ jQuery(document).ready(function() {
 	});
 });
 
+
+/* Reorder the page block when resize the page
+================================================== */
+/*! matchMedia() polyfill - Test a CSS media type/query in JS. Authors & copyright (c) 2012: Scott Jehl, Paul Irish, Nicholas Zakas. Dual MIT/BSD license */
+
+window.matchMedia = window.matchMedia || (function( doc, undefined ) {
+
+  "use strict";
+
+  var bool,
+      docElem = doc.documentElement,
+      refNode = docElem.firstElementChild || docElem.firstChild,
+      // fakeBody required for <FF4 when executed in <head>
+      fakeBody = doc.createElement( "body" ),
+      div = doc.createElement( "div" );
+
+  div.id = "mq-test-1";
+  div.style.cssText = "position:absolute;top:-100em";
+  fakeBody.style.background = "none";
+  fakeBody.appendChild(div);
+
+  return function(q){
+
+    div.innerHTML = "&shy;<style media=\"" + q + "\"> #mq-test-1 { width: 42px; }</style>";
+
+    docElem.insertBefore( fakeBody, refNode );
+    bool = div.offsetWidth === 42;
+    docElem.removeChild( fakeBody );
+
+    return {
+      matches: bool,
+      media: q
+    };
+
+  };
+
+}( document ));
+var obj = jQuery('#signup').parent().parent().parent();
+var new_obj = obj.clone();
+obj.addClass('original-obj');
+new_obj.addClass('new-obj');
+function reorderBlock() {
+	new_obj.
+			insertBefore(jQuery('.gdl-page-item>div:last'));
+	obj.hide();
+	new_obj.show();
+}
+
+function restoreBlock() {
+	new_obj.hide();
+	obj.show();
+}
+
+
+jQuery(window).resize(function() {
+    if (matchMedia('only screen and (min-width: 768px)').matches) {
+		console.log('restore action....');
+		restoreBlock();
+	} else {
+		console.log('reorderBlock action....');
+		reorderBlock();
+	}
+});
+
+/* Note: Design for a width of 768px */
+if (matchMedia('only screen and (min-width: 768px) and (max-width: 959px)').matches) {
+      // smartphone/iphone... maybe run some small-screen related dom scripting?
+//	restoreBlock();
+}
+
+
+/* Note: Design for a width of 320px */
+if (matchMedia('only screen and (max-width: 767px)').matches) {
+      // smartphone/iphone... maybe run some small-screen related dom scripting?
+	reorderBlock();
+}
+
+/* Note: Design for a width of 480px */
+if (matchMedia('only screen and (min-width: 480px) and (max-width: 767px)').matches) {
+      // smartphone/iphone... maybe run some small-screen related dom scripting?
+	reorderBlock();
+}
+
+/* Reorder the page block end
+================================================== */
+
 /* Equal Height Function
 ================================================== */
 (function($) {

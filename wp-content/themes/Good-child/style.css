@@ -134,6 +134,7 @@ Version:        0.1.0
 	 #knowtwitts{
       height:134px;
       }
+	.social-icon img{ max-width: 100%; height: auto; }
 	  
 	  #knowtwitts p.twitter-title{
         font-size:100%;

@@ -360,11 +360,38 @@ jQuery(window).load(function() {
 
 	// Call jcarousellite
 	var carousellite = jQuery('.jcarousellite');
-	
-	carousellite.each(function(){
+	var obj = carousellite.clone();
+
+	carousellite.each(function() {
 		var fetch_num = jQuery(this).find('ul').children().length;
 		jQuery(this).parent(".columns, .column").css('overflow', 'hidden');
-		jQuery(this).jCarouselLite({ btnNext: ".next", btnPrev: ".prev", visible: fetch_num });
+		jQuery(this).jCarouselLite({btnNext: ".next", btnPrev: ".prev", visible: fetch_num});
 	});
-	
+
+	var rtime = new Date(1, 1, 2000, 12, 00, 00);
+	var timeout = false;
+	var delta = 200;
+	jQuery(window).resize(function() {
+		rtime = new Date();
+		if (timeout === false) {
+			timeout = true;
+			setTimeout(resizeend, delta);
+		}
+	});
+
+	function resizeend() {
+		if (new Date() - rtime < delta) {
+			setTimeout(resizeend, delta);
+		} else {
+			// Call jcarousellite
+//			carousellite.each(function() {
+//				var fetch_num = jQuery(this).find('ul').children().length;
+//				jQuery(this).parent(".columns, .column").css('overflow', 'hidden');
+//				console.log('fetch_num:' + fetch_num);
+//				jQuery(this).jCarouselLite({btnNext: ".next", btnPrev: ".prev", visible: fetch_num});
+//			});
+		}
+	}
+
 });
+
