@@ -162,7 +162,7 @@ Version:        0.1.0
 		 
 		.header-wrapper .header-right-side-wrapper{
 		 float:none;
-		 width:80%;
+		 width:100%;
 		 text-align:center;
 		}
 		.header-wrapper .logo-wrapper{

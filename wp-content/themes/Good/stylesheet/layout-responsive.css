@@ -221,7 +221,7 @@
 		div.social-wrapper{ display: inline-block; margin: 38px -10px; text-align: center; float: none; }
 			
 		div.navigation-wrapper{ display: none; }	
-		div.responsive-menu-wrapper{ display: block; margin: 0px 10px; }
+		div.responsive-menu-wrapper{ display: block; margin: 0px auto; width: 80%; }
 		
 		div.flex-caption{ display: none; }
 	
