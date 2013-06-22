@@ -126,7 +126,7 @@ left: 610px;}
     /* Note: Design for a width of 768px */
 
     @media only screen and (min-width: 768px) and (max-width: 959px) {
-		
+	
         div.jcarousellite { overflow: hidden; width: 374px;}
 		.page-id-491 .container .sidebar-included .gdl-page-item .eight.columns.wrapper                  { position: absolute; top: 387px; z-index: 10;
 left: 429px;}
@@ -178,8 +178,7 @@ left: 429px;}
 			.container .sidebar-included .gdl-page-item .four.columns                    { width: 112px; }
 			.container .sidebar-included .gdl-page-item .eight.columns                   { width: 244px; }
 			.container .sidebar-included .gdl-page-item .twelve.columns                  { width: 376px; }
-			.container .sidebar-included .gdl-page-item .sixteen.columns                 { width: 508px; }
-			.page-id-491 .container .sidebar-included .gdl-page-item .sixteen.columns                 { width: 100%; }
+			.container .sidebar-included .gdl-page-item .sixteen.columns                 { width: 780px; }
 			.container .sidebar-included .gdl-page-item .one-third.column                { width: 156px; }
 			.container .sidebar-included .gdl-page-item .two-thirds.column               { width: 332px; }
 				
@@ -233,7 +232,7 @@ left: 429px;}
         div.jcarousellite { overflow: hidden; width: 310px;}
 		.menu {clear:both;display:none;}
 		.logos ul li {display: block; float: left;width:30%; margin: 0px 5px 0px 0px;}
-	
+
 		.menus ul li {width:22%;}
 		.menus ul li {margin: 15px 4px 0 8px;}
 		
@@ -327,8 +326,8 @@ left: 429px;}
 		.menuclass 	{   float: left; padding: 10px 87px 0 0; width: 100px;}
 		.menuclass2 {   float: left; padding: 10px 0px 0 0; width: 100px;}
 		
-		.container { width: 300px; }
-		.gdl-page-item { width: 300px; float: left; }
+		.container { width: 278px; }
+		.gdl-page-item { width: 2780px; float: left; }
         .container .columns,
         .container .column { margin: 0px 10px 10px 10px; }
 
@@ -418,7 +417,7 @@ left: 429px;}
 		
 		div.jcarousellite { overflow: hidden; width: 430px;}
 		.menu{clear:both;}
-	
+
 		
         .logos ul li {display: block; float: left;width:20%;}
 
