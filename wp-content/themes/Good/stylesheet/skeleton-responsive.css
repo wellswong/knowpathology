@@ -312,6 +312,7 @@ left: 429px;}
 
  /* Note: Design for a width of 320px */
 	 @media only screen and (max-width: 480px) {
+    	.gdl-page-item			     { width: 300px; float: left; }
   
         div.jcarousellite { overflow: hidden; width: 310px;}
 		.menu {clear:both;display:none;}
@@ -327,7 +328,7 @@ left: 429px;}
 		.menuclass2 {   float: left; padding: 10px 0px 0 0; width: 100px;}
 		
 		.container { width: 278px; }
-		.gdl-page-item { width: 2780px; float: left; }
+		.gdl-page-item { width: 330; float: left; }
         .container .columns,
         .container .column { margin: 0px 10px 10px 10px; }
 
@@ -351,7 +352,7 @@ left: 429px;}
         .container .one-third.column,
         .container .two-thirds.column  { width: 280px; }
 		
-		.container .four.columns { width: 130px; }
+		.container .four.columns { width: 134px; }
 		
 			/* Wrapper */
 			/*.container .four.columns.wrapper,*/
@@ -361,7 +362,7 @@ left: 429px;}
 			.container .one-third.column.wrapper,            
 			.container .two-thirds.column.wrapper { width: 300px; margin-right: 0px; margin-left: 0px; }
 
-			.container .four.columns.wrapper { width: 150px; margin-right: 0px; margin-left: 0px; }
+			.container .four.columns.wrapper { width: 138px; margin-right: 0px; margin-left: 0px; }
 			
 			/* One Sidebar */
 			.sidebar-included .gdl-page-item { width: 300px; }
