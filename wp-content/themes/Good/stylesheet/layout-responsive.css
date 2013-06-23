@@ -117,28 +117,28 @@
 		background: #fff; }
 		
 	.text{
-		width:70px;
-		height: 15px;
+		width:75px;
+		height: 22px;
 		padding: 1px;
 		float:left;
 		color: #777;
 		}
 		
 	.text2{
-		width:70px;
-		height: 15px;
+		width:75px;
+		height: 22px;
 		padding: 1px;
 		}		
 	.email{
-		width:150px;
-		height: 15px;
+		width:165px;
+		height: 22px;
 		padding: 1px;
 		clear:left;
 		color: #777;
 		}
 	.postcode{
-		width:150px;
-		height: 15px;
+		width:165px;
+		height: 22px;
 		padding: 1px;
 		clear:left;
 		}	
@@ -148,8 +148,8 @@
 		/*margin: 0 5px 10px;*/
 		}	
 	.boxcopy{
-		width:160px;
-		height: 20px;
+		width:165px;
+		height: 22px;
 		padding: 1px;
 		clear:left;
 		}	
@@ -176,7 +176,7 @@
 	input[type="submit"],
 	input[type="reset"],
 	input[type="button"] {
-		height: 20px; line-height: 26px; padding: 0px 1px 0px 1px; display: inline-block; 
+		height: 22px; line-height: 26px; padding: 0px 1px 0px 1px; display: inline-block; 
 		background: url('images/gradient-top4-32px.png') repeat-x; font-weight: bold; cursor: pointer;
 		
 		-webkit-border-radius: 3px;
