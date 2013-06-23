@@ -1163,7 +1163,7 @@ div.navigation-wrapper{margin-top:0px;}
  @media only screen and (min-width: 768px) and (max-width: 959px) {
      div.navigation-wrapper{
 	top: 0px;}
-     div.slider-wrapper {width: 770px;}
+     div.slider-wrapper {width: 780px;}
  }
  /* All Mobile Sizes (devices and browser) */
 @media only screen and (max-width: 767px) {

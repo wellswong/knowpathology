@@ -138,7 +138,7 @@ left: 429px;}
 		.menus ul li { margin: 10px 3px 0;}
 		
 		.container                                  { width: 780px; }
-		.gdl-page-item			     { width: 768px; float: left; }
+		.gdl-page-item			     { width: 820px; float: left; }
         .container .column,
         .container .columns                         {  }
 		.column, .columns                 			{ margin: 0px 0px 5px 0px;relative;}
@@ -150,7 +150,7 @@ left: 429px;}
         .container .five.columns                    { width: 220px; }
         .container .six.columns                     { width: 268px; }
         .container .seven.columns                   { width: 316px; }
-        .container .eight.columns                   { width: 374px; } /*was 364*/
+        .container .eight.columns                   { width: 394px; } /*was 364*/
         .container .nine.columns                    { width: 412px; }
         .container .ten.columns                     { width: 460px; }
         .container .eleven.columns                  { width: 508px; }
@@ -164,7 +164,7 @@ left: 429px;}
         .container .two-thirds.column               { width: 492px; }	
 		
 			/* Wrapper */
-			.container .four.columns.wrapper                    { width: 186px; margin-right: 4px; margin-left: 0px; }
+			.container .four.columns.wrapper                    { width: 192px; margin-right: 4px; margin-left: 0px; }
 			.container .eight.columns.wrapper                   { width: 384px; margin-right: 0px; margin-left: 0px; }
 			.container .twelve.columns.wrapper                  { width: 576px; margin-right: 0px; margin-left: 0px; }
 			.container .sixteen.columns.wrapper                 { width: 768px; margin-right: 0px; margin-left: 0px; }
