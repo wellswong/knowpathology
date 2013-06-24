@@ -889,6 +889,9 @@ class wpTwitterWidget extends RangePlugin {
 				$widgetContent .= '<li>';
 				$widgetContent .= "<span class='entry-content'>{$entryContent}</span>";
 				$widgetContent .= " <span class='entry-meta'>";
+                                $widgetContent .= "<br/><span class='screen-name'>";
+                                $widgetContent .= $tweet->user->screen_name;
+                                $widgetContent .= '</span>';
 				$widgetContent .= "<span class='time-meta'>";
 				$linkAttrs = array(
 					'href'	=> "http://twitter.com/{$tweet->user->screen_name}/statuses/{$tweet->id_str}"
