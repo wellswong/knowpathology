@@ -199,6 +199,9 @@ Version:        0.1.0
 		.post-content { padding-left: 2px; padding-top: 5px; width: 257px;}
 		.page-id-491 #signup {left:0;}
 		.page-id-491 .right-sidebar-wrapper.gdl-divider {height: 0;}
+                .header-right-side-wrapper div.social-wrapper {
+                  margin: 20px 0px;
+                  }
     }
   
   /* #Mobile (Landscape)
